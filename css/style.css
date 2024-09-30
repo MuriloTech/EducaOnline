@@ -1,0 +1,100 @@
+
+body{
+    background: linear-gradient(to bottom, #c90202, #e60000, #cc0000, #b30000, #990000);
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: oswald;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa{
+    margin-top: 65px;
+    background-color: rgb(27, 22, 22);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.nome input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+
+}
+
+.idade input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.senha input{
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.entrar input{
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(222, 23, 23);
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.entrar input:hover{
+    opacity: 60%;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: white;
+}
+
+
+input:focus{
+    outline: none;
+}
